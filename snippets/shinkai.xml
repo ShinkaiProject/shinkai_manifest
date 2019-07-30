@@ -11,10 +11,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="ShinkaiProject/shinkai_build_soong" groups="pdk,tradefed,sysui-studio" remote="shinkai" revision="heptakaideka" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="ShinkaiProject/shinkai_build_soong" groups="pdk,tradefed,sysui-studio" remote="shinkai" revision="heptakaideka" />
   <project path="development" name="PixelOS-AOSP/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="device/custom/sepolicy" name="PixelOS-AOSP/android_device_custom_sepolicy" remote="github" />
   <project path="external/avb" name="PixelOS-AOSP/android_external_avb" groups="pdk" remote="github" />
