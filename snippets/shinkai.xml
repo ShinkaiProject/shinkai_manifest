@@ -47,7 +47,6 @@
   <project path="packages/apps/LMOFreeform" name="Shinkaiprjkt/android_packages_apps_LMOFreeform" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="Shinkaiprjkt/android_packages_apps_Updater" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github" />
   <project path="packages/providers/MediaProvider" name="PixelOS-AOSP/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
   <project path="packages/modules/Virtualization" name="PixelOS-AOSP/android_packages_modules_Virtualization" groups="pdk" remote="github" />
