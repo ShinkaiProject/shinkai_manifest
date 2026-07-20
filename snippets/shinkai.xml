@@ -43,7 +43,7 @@
   <project path="hardware/samsung/nfc" name="PixelOS-AOSP/android_hardware_samsung_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
-  <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
+  <project path="packages/apps/ParanoidSense" name="Shinkaiprjkt/shinkai_packages_apps_ParanoidSense" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/DocumentsUI" name="PixelOS-AOSP/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/apps/Settings" name="Shinkaiprjkt/shinkai_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/GameSpace" name="Shinkaiprjkt/shinkai_packages_apps_GameSpace" remote="Shinkaiprjkt" revision="hekkaideka" />
@@ -78,7 +78,7 @@
   <project path="system/security" name="PixelOS-AOSP/android_system_security" groups="pdk" remote="github" />
   <project path="system/update_engine" name="PixelOS-AOSP/android_system_update_engine" groups="pdk" remote="github" />
   <project path="system/vold" name="PixelOS-AOSP/android_system_vold" groups="pdk" remote="github" />
-  <project path="vendor/lineage" name="PixelOS-AOSP/android_vendor_lineage" remote="github" />
+  <project path="vendor/lineage" name="Shinkaiprjkt/vendor_lineage" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="vendor/custom" name="Shinkaiprjkt/android_vendor_shinkai" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="vendor/custom-preference" name="PixelOS-AOSP/android_vendor_custom-preference" remote="github" />
 
