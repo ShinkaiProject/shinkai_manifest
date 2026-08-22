@@ -1,4 +1,4 @@
-# PixelOS
+# Shinkai Project AOSP
 
 ## Getting Started
 
@@ -8,13 +8,13 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b seventeen --git-lfs
+repo init --depth=1 -u https://github.com/Shinkaiprjkt/manifest.git -b hekkaideka --git-lfs
 ```
 
 Then, sync the repository:
 
 ```bash
-repo sync
+repo sync --force-sync --no-clone-bundle --no-tags
 ```
 
 ## Building the System
@@ -22,7 +22,7 @@ repo sync
 Initialize the ROM build environment by sourcing the envsetup.sh script:
 
 ```bash
-source build/envsetup.sh
+. b*/env*
 ```
 
 After cloning the device-specific sources, use breakfast to configure the build for your device:
@@ -34,8 +34,5 @@ breakfast devicecodename
 Start the compilation:
 
 ```bash
-m pixelos
+m shinkai
 ```
-
-## Submitting Patches
-Patches are always welcome! Feel free to submit your patches via [PixelOS Gerrit](https://review.pixelos.net/).

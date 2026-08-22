@@ -10,6 +10,10 @@
            revision="refs/heads/lineage-24.0"
            review="review.lineageos.org" />
 
+  <remote  name="shinkai"
+           fetch=".."
+           revision="refs/heads/heptakaideka" />
+
   <remote  name="github"
            fetch=".."
            revision="refs/heads/seventeen"
