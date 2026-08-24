@@ -1,5 +1,7 @@
 # Shinkai Project AOSP
 
+![Shinkai](https://github.com/Shinkaiprjkt/.github/blob/main/ShinkaiBanner.png?raw=true)
+
 ## Getting Started
 
 To get started with the PixelOS source code, you'll need to be
