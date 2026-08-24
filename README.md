@@ -10,7 +10,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init --depth=1 -u https://github.com/Shinkaiprjkt/manifest.git -b hekkaideka --git-lfs
+repo init --depth=1 -u https://github.com/Shinkaiprjkt/shinkai_manifest.git -b heptakaideka --git-lfs
 ```
 
 Then, sync the repository:
