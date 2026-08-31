@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="art" name="PixelOS-AOSP/android_art" groups="pdk" remote="github" />
   <project path="bionic" name="ShinkaiProject/shinkai_bionic" groups="pdk" remote="shinkai" revision="heptakaideka" />
   <project path="bootable/deprecated-ota" name="PixelOS-AOSP/android_bootable_deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" remote="github" />
   <project path="bootable/recovery" name="ShinkaiProject/shinkai_bootable_recovery" groups="pdk" remote="shinkai" revision="heptakaideka" />
