@@ -49,6 +49,7 @@
   <project path="packages/apps/GameSpace" name="Shinkaiprjkt/shinkai_packages_apps_GameSpace" remote="shinkai" revision="heptakaideka" />
   <project path="packages/apps/LMOFreeform" name="Shinkaiprjkt/shinkai_packages_apps_LMOFreeform" remote="shinkai" revision="heptakaideka" />
   <project path="packages/apps/ShinkaiWalls" name="Shinkaiprjkt/packages_apps_ShinkaiWalls" remote="shinkai" revision="heptakaideka" />
+  <project path="packages/apps/AppDataBackup" name="Shinkaiprjkt/shinkai_packages_apps_AppDataBackup" remote ="shinkai" revision="heptakaideka" />
   <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github" />
   <project path="packages/apps/ColumbusService" name="PixelOS-AOSP/android_packages_apps_ColumbusService" remote="github" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
