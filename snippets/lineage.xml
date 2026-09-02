@@ -23,11 +23,9 @@
   <project path="vendor/apn" name="LineageOS/android_vendor_apn" revision="main" remote="lineageos" />
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <!--
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="coral" remote="lineageos" />
   <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" remote="lineageos" />
   <project path="hardware/qcom/sm7250/gps" name="LineageOS/android_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" remote="lineageos" />
-  -->
   <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" revision="lineage-23.2" remote="lineageos" />
   <project path="hardware/qcom/sm8150/gps" name="LineageOS/android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" revision="lineage-23.2" remote="lineageos" />
 
@@ -62,11 +60,9 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   </project>
-  <!--
   <project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" remote="lineageos" />
   <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-msm8953" remote="lineageos" />
   <project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" remote="lineageos" />
-  -->
   <project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-24.0-caf-sdm660" remote="lineageos" />
   <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-24.0-caf-sdm660" remote="lineageos" />
   <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-24.0-caf-sdm660" remote="lineageos" />
