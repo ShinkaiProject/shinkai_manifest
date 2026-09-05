@@ -49,6 +49,7 @@
   <project path="packages/apps/GameSpace" name="Shinkaiprjkt/shinkai_packages_apps_GameSpace" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/LMOFreeform" name="Shinkaiprjkt/shinkai_packages_apps_LMOFreeform" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/ShinkaiWalls" name="Shinkaiprjkt/packages_apps_ShinkaiWalls" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="packages/apps/AppDataBackup" name="Shinkaiprjkt/shinkai_packages_apps_AppDataBackup" remote ="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="Shinkaiprjkt/shinkai_packages_apps_Updater" remote="Shinkaiprjkt" revision="hekkaideka" />
   <project path="packages/apps/CertInstaller" name="PixelOS-AOSP/android_packages_apps_CertInstaller" groups="pdk" remote="github" />
