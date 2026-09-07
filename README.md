@@ -1,6 +1,6 @@
 # Shinkai Project AOSP
 
-![Shinkai](https://github.com/Shinkaiprjkt/.github/blob/main/ShinkaiBanner.png?raw=true)
+![Shinkai](https://github.com/ShinkaiProject/.github/blob/main/ShinkaiBanner.png?raw=true)
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init --depth=1 -u https://github.com/Shinkaiprjkt/shinkai_manifest.git -b heptakaideka --git-lfs
+repo init --depth=1 -u https://github.com/ShinkaiProject/shinkai_manifest.git -b heptakaideka --git-lfs
 ```
 
 Then, sync the repository:
@@ -36,5 +36,5 @@ breakfast devicecodename
 Start the compilation:
 
 ```bash
-m shinkai
+mka shinkai
 ```
