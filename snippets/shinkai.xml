@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="bionic" name="Shinkaiprjkt/shinkai_bionic" groups="pdk" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="bionic" name="ShinkaiProject/shinkai_bionic" groups="pdk" remote="shinkai" revision="hekkaideka" />
   <project path="bootable/deprecated-ota" name="PixelOS-AOSP/android_bootable_deprecated-ota" groups="pdk-cw" remote="github" />
-  <project path="bootable/recovery" name="Shinkaiprjkt/shinkai_bootable_recovery" groups="pdk" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="bootable/recovery" name="ShinkaiProject/shinkai_bootable_recovery" groups="pdk" remote="shinkai" revision="hekkaideka" />
   <project path="build/make" name="PixelOS-AOSP/android_build" groups="pdk,sysui-studio" remote="github">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,7 +11,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="Shinkaiprjkt/shinkai_build_soong" groups="pdk,tradefed,sysui-studio" remote="Shinkaiprjkt" revision="hekkaideka" >
+  <project path="build/soong" name="ShinkaiProject/shinkai_build_soong" groups="pdk,tradefed,sysui-studio" remote="shinkai" revision="hekkaideka" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -30,10 +30,10 @@
   <project path="external/sqlite" name="PixelOS-AOSP/android_external_sqlite" groups="pdk" remote="github" />
   <project path="external/tinycompress" name="PixelOS-AOSP/android_external_tinycompress" groups="pdk" remote="github" />
   <project path="external/zstd" name="PixelOS-AOSP/android_external_zstd" groups="pdk" remote="github" />
-  <project path="frameworks/av" name="Shinkaiprjkt/shinkai_frameworks_av" groups="pdk,sysui-studio" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="frameworks/base" name="Shinkaiprjkt/shinkai_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="frameworks/native" name="Shinkaiprjkt/shinkai_frameworks_native" groups="pdk" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="frameworks/opt/telephony" name="Shinkaiprjkt/shinkai_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="frameworks/av" name="ShinkaiProject/shinkai_frameworks_av" groups="pdk,sysui-studio" remote="shinkai" revision="hekkaideka" />
+  <project path="frameworks/base" name="ShinkaiProject/shinkai_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="shinkai" revision="hekkaideka" />
+  <project path="frameworks/native" name="ShinkaiProject/shinkai_frameworks_native" groups="pdk" remote="shinkai" revision="hekkaideka" />
+  <project path="frameworks/opt/telephony" name="ShinkaiProject/shinkai_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="shinkai" revision="hekkaideka" />
   <project path="hardware/broadcom/libbt" name="PixelOS-AOSP/android_hardware_broadcom_libbt" groups="pdk" remote="github" />
   <project path="hardware/google/pixel" name="PixelOS-AOSP/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="github" />
   <project path="hardware/google/pixel-sepolicy" name="PixelOS-AOSP/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="github" />
@@ -43,22 +43,22 @@
   <project path="hardware/samsung/nfc" name="PixelOS-AOSP/android_hardware_samsung_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
-  <project path="packages/apps/ParanoidSense" name="Shinkaiprjkt/shinkai_packages_apps_ParanoidSense" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="packages/apps/ParanoidSense" name="ShinkaiProject/shinkai_packages_apps_ParanoidSense" remote="shinkai" revision="hekkaideka" />
   <project path="packages/apps/DocumentsUI" name="PixelOS-AOSP/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <project path="packages/apps/Settings" name="Shinkaiprjkt/shinkai_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="packages/apps/GameSpace" name="Shinkaiprjkt/shinkai_packages_apps_GameSpace" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="packages/apps/LMOFreeform" name="Shinkaiprjkt/shinkai_packages_apps_LMOFreeform" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="packages/apps/ShinkaiWalls" name="Shinkaiprjkt/packages_apps_ShinkaiWalls" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="packages/apps/AppDataBackup" name="Shinkaiprjkt/shinkai_packages_apps_AppDataBackup" remote ="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="packages/apps/Settings" name="ShinkaiProject/shinkai_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="shinkai" revision="hekkaideka" />
+  <project path="packages/apps/GameSpace" name="ShinkaiProject/shinkai_packages_apps_GameSpace" remote="shinkai" revision="hekkaideka" />
+  <project path="packages/apps/LMOFreeform" name="ShinkaiProject/shinkai_packages_apps_LMOFreeform" remote="shinkai" revision="hekkaideka" />
+  <project path="packages/apps/ShinkaiWalls" name="ShinkaiProject/packages_apps_ShinkaiWalls" remote="shinkai" revision="hekkaideka" />
+  <project path="packages/apps/AppDataBackup" name="ShinkaiProject/shinkai_packages_apps_AppDataBackup" remote ="shinkai" revision="hekkaideka" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
-  <project path="packages/apps/Updater" name="Shinkaiprjkt/shinkai_packages_apps_Updater" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="packages/apps/Updater" name="ShinkaiProject/shinkai_packages_apps_Updater" remote="shinkai" revision="hekkaideka" />
   <project path="packages/apps/CertInstaller" name="PixelOS-AOSP/android_packages_apps_CertInstaller" groups="pdk" remote="github" />
   <project path="packages/apps/KeyChain" name="PixelOS-AOSP/android_packages_apps_KeyChain" groups="pdk" remote="github" />
   <project path="packages/providers/MediaProvider" name="PixelOS-AOSP/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/providers/ContactsProvider" name="PixelOS-AOSP/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
   <project path="packages/modules/Virtualization" name="PixelOS-AOSP/android_packages_modules_Virtualization" groups="pdk" remote="github" />
-  <project path="packages/modules/Bluetooth" name="Shinkaiprjkt/shinkai_packages_modules_Bluetooth" groups="pdk" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="packages/modules/Bluetooth" name="ShinkaiProject/shinkai_packages_modules_Bluetooth" groups="pdk" remote="shinkai revision="hekkaideka" />
   <project path="packages/modules/common" name="PixelOS-AOSP/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/modules/Nfc" name="PixelOS-AOSP/android_packages_modules_Nfc" groups="pdk" remote="github" />
   <project path="packages/modules/Connectivity" name="PixelOS-AOSP/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" />
@@ -70,7 +70,7 @@
   <project path="packages/services/Telephony" name="PixelOS-AOSP/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="system/bpf" name="PixelOS-AOSP/android_system_bpf" groups="pdk" remote="github" />
   <project path="system/chre" name="PixelOS-AOSP/android_system_chre" groups="pdk" remote="github" />
-  <project path="system/core" name="Shinkaiprjkt/shinkai_system_core" groups="pdk" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="system/core" name="ShinkaiProject/shinkai_system_core" groups="pdk" remote="shinkai" revision="hekkaideka" />
   <project path="system/extras" name="PixelOS-AOSP/android_system_extras" groups="pdk" remote="github" />
   <project path="system/logging" name="PixelOS-AOSP/android_system_logging" groups="pdk" remote="github" />
   <project path="system/libziparchive" name="PixelOS-AOSP/android_system_libziparchive" groups="pdk" remote="github" />
@@ -80,8 +80,8 @@
   <project path="system/security" name="PixelOS-AOSP/android_system_security" groups="pdk" remote="github" />
   <project path="system/update_engine" name="PixelOS-AOSP/android_system_update_engine" groups="pdk" remote="github" />
   <project path="system/vold" name="PixelOS-AOSP/android_system_vold" groups="pdk" remote="github" />
-  <project path="vendor/lineage" name="Shinkaiprjkt/vendor_lineage" remote="Shinkaiprjkt" revision="hekkaideka" />
-  <project path="vendor/custom" name="Shinkaiprjkt/android_vendor_shinkai" remote="Shinkaiprjkt" revision="hekkaideka" />
+  <project path="vendor/lineage" name="ShinkaiProject/vendor_lineage" remote="shinkai" revision="hekkaideka" />
+  <project path="vendor/custom" name="ShinkaiProject/android_vendor_shinkai" remote="shinkai" revision="hekkaideka" />
   <project path="vendor/custom-preference" name="PixelOS-AOSP/android_vendor_custom-preference" remote="github" />
 
   <!-- Tools -->

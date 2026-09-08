@@ -1,5 +1,7 @@
 # Shinkai Project AOSP
 
+![Shinkai](https://github.com/ShinkaiProject/.github/blob/main/ShinkaiBanner.png?raw=true)
+
 ## Getting Started
 
 To get started with the PixelOS source code, you'll need to be
@@ -8,7 +10,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init --depth=1 -u https://github.com/Shinkaiprjkt/manifest.git -b hekkaideka --git-lfs
+repo init --depth=1 -u https://github.com/ShinkaiProject/shinkai_manifest.git -b hekkaideka --git-lfs
 ```
 
 Then, sync the repository:
@@ -34,5 +36,5 @@ breakfast devicecodename
 Start the compilation:
 
 ```bash
-m shinkai
+mka shinkai
 ```
