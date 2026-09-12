@@ -87,7 +87,7 @@
   <project path="vendor/lineage" name="ShinkaiProject/vendor_lineage" remote="shinkai" revision="heptakaideka" />
   <project path="vendor/custom" name="ShinkaiProject/android_vendor_shinkai" remote="shinkai" revision="heptakaideka" />
   <project path="vendor/custom-preference" name="PixelOS-AOSP/android_vendor_custom-preference" remote="github" />
-  <project path="vendor/crowdin" name="PixelOS-AOSP/android_vendor_crowdin" remote="github" revision="seventeen" />
+  <project path="vendor/crowdin" name="ShinkaiProject/shinkai_vendor_crowdin" remote="shinkai" revision="heptakaideka" />
 
   <!-- Tools -->
   <project path="lineage/scripts" name="PixelOS-AOSP/scripts" groups="tools" remote="github" revision="main" />
