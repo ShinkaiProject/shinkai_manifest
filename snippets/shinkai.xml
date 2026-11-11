@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="art" name="PixelOS-AOSP/android_art" groups="pdk" remote="github" />
+  <project path="art" name="ShinkaiProject/shinkai_art" groups="pdk" remote="shinkai" revision="heptakaideka" />
   <project path="bionic" name="ShinkaiProject/shinkai_bionic" groups="pdk" remote="shinkai" revision="heptakaideka" />
   <project path="bootable/deprecated-ota" name="PixelOS-AOSP/android_bootable_deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" remote="github" />
   <project path="bootable/recovery" name="ShinkaiProject/shinkai_bootable_recovery" groups="pdk" remote="shinkai" revision="heptakaideka" />
-  <project path="build/make" name="PixelOS-AOSP/android_build" groups="pdk,sysui-studio" remote="github">
+  <project path="build/make" name="ShinkaiProject/shinkai_build" groups="pdk,sysui-studio" remote="shinkai" revision="heptakaideka">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -16,7 +16,7 @@
   <project path="development" name="PixelOS-AOSP/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="device/custom/sepolicy" name="ShinkaiProject/shinkai_device_custom_sepolicy" remote="shinkai" />
   <project path="external/avb" name="PixelOS-AOSP/android_external_avb" groups="pdk" remote="github" />
-  <project path="external/bouncycastle" name="PixelOS-AOSP/android_external_bouncycastle" groups="pdk" remote="github" />
+  <project path="external/bouncycastle" name="ShinkaiProject/shinkai_external_bouncycastle" groups="pdk" remote="shinkai" revision="heptakaideka" />
   <project path="external/dtc" name="PixelOS-AOSP/android_external_dtc" groups="pdk" remote="github" />
   <project path="external/dng_sdk" name="PixelOS-AOSP/android_external_dng_sdk" groups="pdk" remote="github" />
   <project path="external/e2fsprogs" name="PixelOS-AOSP/android_external_e2fsprogs" groups="pdk" remote="github" />
@@ -45,6 +45,8 @@
   <project path="hardware/nxp/secure_element" name="PixelOS-AOSP/android_hardware_nxp_secure_element" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
+  <project path="packages/apps/AppLocker" name="ShinkaiProject/shinkai_packages_apps_AppLocker" remote="shinkai" revision="heptakaideka" />
+  <project path="packages/apps/Sandbox" name="ShinkaiProject/shinkai_packages_apps_Sandbox" remote="shinkai" revision="heptakaideka" />
   <project path="packages/apps/ParanoidSense" name="ShinkaiProject/shinkai_packages_apps_ParanoidSense" remote="shinkai" revision="heptakaideka" />
   <project path="packages/apps/Settings" name="ShinkaiProject/shinkai_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="shinkai" revision="heptakaideka" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
